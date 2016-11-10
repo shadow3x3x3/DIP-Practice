@@ -25,7 +25,7 @@ public class RemoteController extends JPanel implements ActionListener {
         setDownBtn = new JButton("Set Down");
         addActionListeners();
         this.setLayout(new FlowLayout());
-        addComponments();
+        addComponents();
     }
 
     public void connect(Remoter remoter) {
@@ -62,7 +62,7 @@ public class RemoteController extends JPanel implements ActionListener {
         setDownBtn.addActionListener(this);
     }
 
-    private  void addComponments() {
+    private void addComponents() {
         this.add(turnOnBtn);
         this.add(turnOffBtn);
         this.add(setUpBtn);
