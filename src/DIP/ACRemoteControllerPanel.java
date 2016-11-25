@@ -1,3 +1,5 @@
+package DIP;
+
 import javax.swing.*;
 
 /**

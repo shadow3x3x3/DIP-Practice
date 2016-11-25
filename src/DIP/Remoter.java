@@ -1,3 +1,5 @@
+package DIP;
+
 /**
  * Created by ShengWei on 2016/10/27.
  */
