@@ -1,4 +1,4 @@
-package DIP;
+package dip;
 
 /**
  * Created by ShengWei on 2016/10/27.
@@ -12,7 +12,7 @@ public class TV implements Remoter {
         if (!power) {
             power = true;
             channelNum = 7;
-            remoteController.setStatus("The DIP.TV is ON");
+            remoteController.setStatus("The dip.TV is ON");
         }
     }
 
@@ -20,7 +20,7 @@ public class TV implements Remoter {
     public void off(RemoteController remoteController) {
         if (power) {
             power = false;
-            remoteController.setStatus("The DIP.TV is OFF");
+            remoteController.setStatus("The dip.TV is OFF");
         }
     }
 
@@ -32,7 +32,7 @@ public class TV implements Remoter {
             } else {
                 channelNum ++;
             }
-            remoteController.setStatus("The DIP.TV is " +
+            remoteController.setStatus("The dip.TV is " +
                     channelNum + "channel now");
         }
     }
@@ -46,12 +46,12 @@ public class TV implements Remoter {
             } else {
                 channelNum--;
             }
-            remoteController.setStatus("The DIP.TV is " +
+            remoteController.setStatus("The dip.TV is " +
                     channelNum + "channel now");
         }
     }
 
     public String toString() {
-        return "DIP.TV Connect";
+        return "dip.TV Connect";
     }
 }

@@ -1,4 +1,4 @@
-package DIP;
+package dip;
 
 /**
  * Created by ShengWei on 2016/10/27.

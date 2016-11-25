@@ -1,4 +1,4 @@
-package DIP;
+package dip;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
